@@ -1,5 +1,15 @@
-<script>  
-window.addEventListener('load', function(){
- location.href="https://www."+window.location.href;
-});
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <script>  
+ function goto(){
+  setTimeout(function(){
+   location.href="https://www."+window.location.href;
+  },1000); 
 </scirpt>  
+</head>
+<body onload="goto()">
+    <h1>Redirecting...</h1>
+</body>
+</html>
